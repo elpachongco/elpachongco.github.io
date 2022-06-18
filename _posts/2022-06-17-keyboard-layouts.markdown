@@ -7,7 +7,7 @@ categories: ergonomics
 
 Typing all day makes my pinky sore. This is how I got rid of it:
 
-https://superuser.com/questions/317508/how-do-i-hit-the-ctrl-key-without-straining-my-pinky
+[Superuser.com: How do I hit the “Ctrl” key without straining my pinky?](https://superuser.com/a/317593)
 
 I press both ctrl keys with the edge of my palm. It's perfect; I don't have to
 stretch my pinkies, and my fingers don't have to move away from where they're
