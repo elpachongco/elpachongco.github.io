@@ -2,7 +2,7 @@
 layout: post
 title:  "Code Snippets #0: Deploy when port exists using recursion"
 date:   2022-07-19 20:40:26 +0800
-categories: programming, code-snippets
+categories: programming
 ---
 
 I'm starting a new category of posts called "Code Snippets" where I share code
