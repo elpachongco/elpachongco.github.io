@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Write faster with Vim, the universal tool"
+date: 2022-06-24 00:09:14
+categories: tools, ergonomics
+thumbnail:  "https://i.stack.imgur.com/m4Rja.jpg"
+---
+
+	
+- Mouse and keyboard problem. u end up with hurt wrist
+
+Vim removes the need to use the mouse when editing text. 
+
+- Editor problem. Every new editor, you need to learn. The solution is VIM. 
+
+No one text editor can do the all the job you need it to do. We almost always
+end up using different editors for different language or ecosystem. VSCode for
+JS, Android studio for Java/Kotlin etc. By learning Vim, you will save some
+time getting familiar with the shortcuts most of these editors use. There are
+avaialble extensions that let you use Vim keys in their editors.
+
+- Things I can only do in VIM:
+
+
+
+- How to start
+
+To start, install Vim and run `vimtutor` from the command line.
