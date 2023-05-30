@@ -1,28 +1,29 @@
---- layout: post
-title:  "Code snippet: What the heck is hardhat's console.log?"
-date:   2023-03-24 21:07:26 +0800
+---
+layout: post
+title:  "Code Snippets #1: What the heck is hardhat's console.log?"
+date:   2022-07-19 20:40:26 +0800
 categories: programming
 ---
 
 I was tasked to create ethereum smart contracts in my previous job. 
 
-The library most recommended by other developers to create 
+the library most recommended by other developers to create 
 smart contracts was `hardhat`. 
 
-To create and debug the smart contracts, I developed them using
+to create and debug the smart contracts, I developed them using
 test-driven-development methods. The tests gave  me a way to print out
 and inspect variables. 
 
-Just as I was done with the development I read somewhere that hardhat has a
+just as I was done with the development I read somewhere that hardhat has a
 `console.log()` utility. You import it with `import hardhat/console.sol` and
 use it like JS's `console.log`. I wondered how it worked. Upon testing, it
 seemed to only allow a maximum amount of parameters. 
 
-So I decided to look at hardhat's internals and find out how they do it. 
+so i decided to look at hardhat's internals and find out how they do it. 
 
-The first step was to find the `console.log()` utility function.
+the first step was to find the `console.log()` utility function.
 
-This is their repository
+this is their repository
 https://github.com/NomicFoundation/hardhat
 
 ```bash
@@ -30,7 +31,7 @@ $ ls
 config  CONTRIBUTING.md  crates  docs  LICENSE  package.json  packages  README.md  scripts  yarn.lock
 ```
 
-Im not familliar with their file structure conventions. But I can guess that
+im not familliar with their file structure conventions. But I can guess that
 the source code is not in `config/`, `docs/`, or `scipts/`. 
 
 ```bash
@@ -44,22 +45,22 @@ eslint-plugin          hardhat-ethers     hardhat-network-helpers  hardhat-solpp
 hardhat-chai-matchers  hardhat-etherscan  hardhat-shorthand        hardhat-toolbox  hardhat-vyper     hardhat-web3-legacy
 ```
 
-I didn't know what `crates/` were so I also tried it.
-Anyway, `packages/` contains `hardhat-core/`. Inside it we'll find 
+i didn't know what `crates/` were so I also tried it.
+anyway, `packages/` contains `hardhat-core/`. Inside it we'll find 
 `console.sol`.
 
-Let's see the code.
+let's see the code.
 
 ```bash
 $ cat packages/hardhat-core/console.log
 ```
 
-Link to it:
+link to it:
 https://github.com/NomicFoundation/hardhat/blob/main/packages/hardhat-core/console.sol
 
-Opening it, we find 1513 lines of repetitive, possibly auto-generated code. 
+opening it, we find 1513 lines of repetitive, possibly auto-generated code. 
 
-Here's an interesting part of the code: 
+here's an interesting part of the code: 
 
 ```bash
 $ cat packages/hardhat-core/console.sol  -n | tail -n 30
@@ -95,11 +96,11 @@ $ cat packages/hardhat-core/console.sol  -n | tail -n 30
 1532  }
 ```
 
-This looks fascinating to me. I'm less familiar with statically-typed
+this looks fascinating to me. I'm less familiar with statically-typed
 languages, so I don't know how common this method is. I'll explain why it
 intrigues me.
 
-Most of the file consist of functions with the name `log`. In python or
+most of the file consist of functions with the name `log`. In python or
 probably any dynamically-typed languages, this would not work. For example, if `log()` is
 called, The interpreter would not know which `log`, to use out of the many `log`s defined.
 
@@ -113,7 +114,7 @@ called, The interpreter would not know which `log`, to use out of the many `log`
 1530          }
 ```
 
-In solidity, this is a completely valid use case. Although the function
+in solidity, this is a completely valid use case. Although the function
 names are the same, the compiler can determine which `log` to use by looking at
 the data types of the arguments, and finding which `log` function has  the
 correct parameter data types.
