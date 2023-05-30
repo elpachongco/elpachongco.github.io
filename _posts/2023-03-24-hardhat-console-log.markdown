@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Code Snippets #1: What the heck is hardhat's console.log?"
-date:   2022-07-19 20:40:26 +0800
+date:   2023-03-24 21:07:26 +0800
 categories: programming
 ---
 
