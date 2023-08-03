@@ -1,7 +1,7 @@
-# backend:
-#   name: git-gateway
-#   branch: master # Branch to update (optional; defaults to main)
-#   repo: 'elpachongco/elpachongco.github.io'
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to main)
+  repo: 'elpachongco/elpachongco.github.io'
 
 media_folder: 'img/uploads'
 
@@ -22,10 +22,10 @@ collections:
 
 
 
-backend:
-  name: 'github'
-  repo: 'elpachongco/elpachongco.github.io'
-  branch: 'master'
+        #backend:
+        #  name: 'github'
+        #  repo: 'elpachongco/elpachongco.github.io'
+        #  branch: 'master'
     # api_root: 'https://api.github.com'
     # site_domain: 'elpachongco.github.io'
     # base_url: 'https://api.netlify.com'
