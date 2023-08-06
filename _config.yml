@@ -81,15 +81,13 @@ minima:
   skin:
     auto
 
-
-
 collections: 
   shorts:
     output: true
 
 header_pages:
-  - shorts.markdown
-  - about.markdown
+  - pages/shorts.markdown
+  - pages/about.markdown
 
 google_analytics: UA-NNNNNNNN-N
 
@@ -98,3 +96,4 @@ feed:
     shorts:
       path: "feed/shorts.xml"
 
+markdown_ext: "markdown,md"
