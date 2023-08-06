@@ -93,9 +93,6 @@ header_pages:
 
 google_analytics: UA-NNNNNNNN-N
 
-disqus:
-  shortname: my_disqus_shortname
-
 feed:
   collections:
     shorts:
