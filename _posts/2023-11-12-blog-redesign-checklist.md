@@ -3,7 +3,8 @@ layout: post
 title: Blog redesign checklist
 date: 2023-11-12T16:34:54.886+08:00
 ---
-I recently posted this: [[https://elpachongco.github.io/shorts/2023-11-12-new-plans-for-the-blog.html](https://elpachongco.github.io/shorts/2023-11-12-new-plans-for-the-blog.html)](https://elpachongco.github.io/shorts/2023-11-12-new-plans-for-the-blog.html)
+I recently posted this: [New plans for the blog](https://elpachongco.github.io/shorts/2023-11-12-new-plans-for-the-blog.htm)
+
 
 To summarize, I'll be redesigning this blog.
 
