@@ -5,7 +5,6 @@ date: 2023-11-12T16:34:54.886+08:00
 ---
 I recently posted this: [New plans for the blog](https://elpachongco.github.io/shorts/2023-11-12-new-plans-for-the-blog.htm)
 
-
 To summarize, I'll be redesigning this blog.
 
 In this article, I'll list the things that I want my blog to have.
@@ -23,6 +22,7 @@ In this article, I'll list the things that I want my blog to have.
 - [ ] A `draft` indicator, Gwern-style. Since I'll be using the blog as my personal notes website, every change I make to it WILL be pushed, even drafts.
 - [ ] Code snippets must have a built-in header for filename.
 - [ ]  Static site search (like papermod)
+- [ ] Captions for each image
 
 ## Optional
 
