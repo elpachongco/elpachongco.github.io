@@ -23,6 +23,7 @@ In this article, I'll list the things that I want my blog to have.
 - [ ] Code snippets must have a built-in header for filename.
 - [ ]  Static site search (like papermod)
 - [ ] Captions for each image
+- [ ] Front page content curation. Don't just list your posts! Allow user to discover your best content (according to you or users).
 
 ## Optional
 
