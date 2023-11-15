@@ -29,6 +29,7 @@ In this article, I'll list the things that I want my blog to have.
 
 - [ ] A way to manage and view history of updates of an article (since it's managed in git). E.g. arrow buttons to navigate history of the article.
 - [ ] Comment section. (Discuss? Bhread?)
+- [ ] Draggable scroll bar or floating icon that will easily scrub the content (mostly for mobile but also for desktop)
 
 
 
