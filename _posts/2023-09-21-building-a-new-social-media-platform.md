@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building a New Social Media Platform
-date: 2023-11-15T22:10:21.241+08:00
+date: 2023-09-21T22:10:21.000+08:00
 ---
 Last edited: Nov 15 - Revise and add new findings
 
