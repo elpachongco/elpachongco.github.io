@@ -1,21 +1,39 @@
 ---
 layout: post
 title: Building a New Social Media Platform
-date: 2023-09-21T22:18:32.252+08:00
+date: 2023-09-21T22:10:21.000+08:00
 ---
-I recently created a [/shorts/ page in my blog](https://elpachongco.github.io/shorts/). This page is intended for shorter content. It's a place I can use to share memes, tips, and small stories.
+Last edited: Nov 15 - Revise and add new findings
+
+I recently created a [/shorts/ page in my blog](https://elpachongco.github.io/shorts/). This page is intended for shorter content. It's a place I can use to share memes, tips, and small stories. 
+
+The idea came to me after realizing that almost every platform is doing short-form content: Tiktok, Youtube, IG, FB etc. Why not have it on my blog, I thought. 
+
+So I spent an evening to tweak my blog, and after a few hours, I had my [first short post](https://earlps.net/shorts/hello.html)!
 
 ![](/img/uploads/elpachongco-shorts.png)
 
 > My blog's shorts page.
 
-I liked the idea of this. I thought it's a good way to use the blog as my own twitter of sorts.
+This turned out to be a good way to use the blog as my own Twitter of sorts. 
 
 And then I had an idea: If I encourage people to create a /shorts/ page on their blog, and I create a central hub for these pages, where they can interact, we basically have a new twitter!
 
 And that's what I've been doing since August.
 
-I've been building a website that will be a central hub for blogs. The website is called [bhread.com](https://bhread.com). Yes, it's pronounced like bread.
+I've been chasing that dream by building a website that will be a central hub for blogs. And, I'm happy to announce that the website is live! It's called [bhread.com](https://bhread.com) (pronounced like bread).
+
+My plan is to **slowly** build a community around this project. I'm betting on the “build it and they will come” approach for this project.
+
+I have made a blog for this project, [bread blog](https://blog.bhread.com), a [discord server](https://blog.bhread.com/posts/bhread-discord-server/) that I use as a dump of my development notes, and I occasionaly talk about it on my Youtube channel.
+
+### There's an advantage to this!
+
+I realized that I may be on to something. I'll let you be the judge of that, I'll outline the _potential_ advantages this may have over other social media platforms.
+
+#### 1 asdfasdfasd
+
+## Tech
 
 For this project, I wanted to try building a full-fledged application in Django. I have some experience with django rest framework so I thought plain Django would be familliar. I was wrong. Templates are hell.
 
@@ -33,11 +51,11 @@ The code was very unorganized but it helped me determine the requirements.
 
 ![](/img/uploads/bhread-initial-version.png)
 
-> The initial bhread design. Thanks to water.css and material icons for its looks.
+> The initial bhread design. Thanks to [water.css](water.css) and material icons for its looks.
 
 I showed it to some friends and there was not a lot of reaction. It's to be expected for an early product but it made me realize that this UI will not work for everyone. I like it because I like reading. It's my job to read. Hacker News looks like a big wall of text to other people. This looks like a wall of text.
 
-To start the new iteration, I removed a lot of the code, and made new plans. This time, the UI is inspired by twitter and elk.zone (a mastodon client).
+To start the new iteration, I removed a lot of the code, and made new plans. This time, the UI is inspired by twitter and [elk.zone](elk.zone) (a mastodon client).
 
 I tried a few designs. At first, I designed with CSS but I got tired easily and thought I needed to design it properly first before programming.
 
@@ -55,7 +73,7 @@ This is the first complicated project where I'm not using a UI library. CSS is t
 
 Playing with HTMX for a bit, I realized how easy it makes the backend-frontend integration. It's amazing. Like everybody else, I used to build a frontend app and a json API for my web applications. I'm too tired of it. This is why I wanted to try HTMX. The only problem I see with using HTMX is if I want to create mobile apps for bhread, I will have to create a JSON API anyway.
 
-I haven't used [[Alpine.js](Alpine.js)](Alpine.js) a lot as of now but I'm so excited to use it. Once I get the layout sorted, I'll start scripting.
+I haven't used [[Alpine.js](Alpine.js)]([Alpine.js](Alpine.js)) a lot as of now but I'm so excited to use it. Once I get the layout sorted, I'll start scripting.
 
 ### Deployment
 
@@ -73,8 +91,7 @@ One concern about open sourcing the project is monetization. I was scared that I
 
 That's it for now, this is what the website looks like right now (Sept 21, 2023):
 
-![](/img/uploads/bhread-screenshot-09-21-2023.png)
-It's getting pretty close :D
+![](/img/uploads/bhread-screenshot-09-21-2023.png) It's getting pretty close :D
 
 Bonus:
 
@@ -82,4 +99,4 @@ Bonus:
 
 > I forgot to sanitize the verification post. The wordpress theme of the post infected the whole site. Makes me think about the design of my code.
 
-If you want to know more about the project, visit [[Bhread.com](Bhread.com)](https://bhread.com) or visit the [Bhread blog](https://blog.bhread.com).
+If you want to know more about the project, visit [Bhread.com](Bhread.com), the [Bhread blog](https://blog.bhread.com), join the [Discord server](https://blog.bhread.com/posts/bhread-discord-server/) or look at the [FOSS code](https://github.com/elpachongco/bhread).
