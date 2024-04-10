@@ -5,9 +5,9 @@ date: 2023-09-21T22:10:21.000+08:00
 ---
 Last edited: Nov 15 - Revise and add new findings
 
-I recently created a [/shorts/ page in my blog](https://elpachongco.github.io/shorts/). This page is intended for shorter content. It's a place I can use to share memes, tips, and small stories. 
+I recently created a [/shorts/ page in my blog](https://elpachongco.github.io/shorts/). This page is intended for shorter content. It's a place I can use to share memes, tips, and small stories.
 
-The idea came to me after realizing that almost every platform is doing short-form content: Tiktok, Youtube, IG, FB etc. Why not have it on my blog, I thought. 
+The idea came to me after realizing that almost every platform is doing short-form content: Tiktok, Youtube, IG, FB etc. Why not have it on my blog, I thought.
 
 So I spent an evening to tweak my blog, and after a few hours, I had my [first short post](https://earlps.net/shorts/hello.html)!
 
@@ -15,7 +15,7 @@ So I spent an evening to tweak my blog, and after a few hours, I had my [first s
 
 > My blog's shorts page.
 
-This turned out to be a good way to use the blog as my own Twitter of sorts. 
+This turned out to be a good way to use the blog as my own Twitter of sorts.
 
 And then I had an idea: If I encourage people to create a /shorts/ page on their blog, and I create a central hub for these pages, where they can interact, we basically have a new twitter!
 
@@ -30,8 +30,6 @@ I have made a blog for this project, [bread blog](https://blog.bhread.com), a [d
 ### There's an advantage to this!
 
 I realized that I may be on to something. I'll let you be the judge of that, I'll outline the _potential_ advantages this may have over other social media platforms.
-
-#### 1 asdfasdfasd
 
 ## Tech
 
