@@ -92,6 +92,7 @@ header_pages:
 google_analytics: UA-NNNNNNNN-N
 
 feed:
+  posts_limit: 100
   collections:
     shorts:
       path: "feed/shorts.xml"
