@@ -8,6 +8,7 @@ backend:
 #     # auth_endpoint: 'auth'
 
 media_folder: 'assets/img/uploads'
+public_folder: 'img/uploads'
 
 collections:
   - name: 'post' # Used in routes, e.g., /admin/collections/blog
