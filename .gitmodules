@@ -1,0 +1,3 @@
+[submodule "themes/hugo-letter"]
+	path = themes/hugo-letter
+	url = https://github.com/elpachongco/hugo-letter/

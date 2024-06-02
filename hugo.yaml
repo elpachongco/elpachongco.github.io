@@ -2,7 +2,7 @@ baseURL: ""
 disablePathToLower: true
 languageCode: en-us
 title: "elpachongco's blog"
-theme: "letter"
+theme: "hugo-letter"
 params: 
   gitUserName: "elpachongco"
 outputs:
