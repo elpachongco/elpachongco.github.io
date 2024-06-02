@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>elpachongco&#39;s blog</title>
+    <link>/</link>
+    <description>Recent content on elpachongco&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Nov 2023 16:34:54 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog redesign checklist</title>
+      <link>/post/2023-11-12-blog-redesign-checklist/</link>
+      <pubDate>Sun, 12 Nov 2023 16:34:54 +0000</pubDate>
+      
+      <guid>/post/2023-11-12-blog-redesign-checklist/</guid>
+      <description>I recently posted this: New plans for the blog
+To summarize, I&amp;rsquo;ll be redesigning this blog.
+In this article, I&amp;rsquo;ll list the things that I want my blog to have.
+Must haves User-clickable anchors for each post&amp;rsquo;s headers (h1,h2,h3,h4,h5,h6) If possible, must highlight if scrolled or by clicking table of contents. Dark mode Table of contents for each post Must be visible while scrolling. If possible, should also highlight current section.</description>
+    </item>
+    
+    <item>
+      <title>I should have used the debugger</title>
+      <link>/post/2023-11-11-i-should-have-used-the-debugger/</link>
+      <pubDate>Sat, 11 Nov 2023 23:35:37 +0000</pubDate>
+      
+      <guid>/post/2023-11-11-i-should-have-used-the-debugger/</guid>
+      <description>A week ago I was implementing a dynamic logo in a website which would change if the navbar has a dark background and change back if it&amp;rsquo;s light.
+My approach was to add two &amp;lt;img&amp;gt; tags, overlapping each other and toggling the front element (greater z-index) when the conditions are right.
+Seems good right?
+Well, It worked as expected but after some testing, I noticed something: scrolling up would lag the browser on my 4-core i7 8550u 16gb memory machine.</description>
+    </item>
+    
+    <item>
+      <title>Things I Use</title>
+      <link>/uses/</link>
+      <pubDate>Fri, 06 Oct 2023 23:12:50 +0000</pubDate>
+      
+      <guid>/uses/</guid>
+      <description>I&amp;rsquo;m used to being frugal. Because of that, most of my equipment and tool decisions are focused on being economical. Most of my hardware is second hand. I rarely pay for software.
+The Phone - LG V20 A highly-repairable phone with good camera hardware and software.
+It&amp;rsquo;s already 2023. LG has left the smartphone market, and this phone was released in 2016.
+I love this phone, it&amp;rsquo;s just good quality hardware.</description>
+    </item>
+    
+    <item>
+      <title>Building a New Social Media Platform</title>
+      <link>/post/2023-09-21-building-a-new-social-media-platform/</link>
+      <pubDate>Thu, 21 Sep 2023 22:18:32 +0000</pubDate>
+      
+      <guid>/post/2023-09-21-building-a-new-social-media-platform/</guid>
+      <description>I recently created a /shorts/ page in my blog. This page is intended for shorter content. It&amp;rsquo;s a place I can use to share memes, tips, and small stories.
+My blog&amp;rsquo;s shorts page.
+I liked the idea of this. I thought it&amp;rsquo;s a good way to use the blog as my own twitter of sorts.
+And then I had an idea: If I encourage people to create a /shorts/ page on their blog, and I create a central hub for these pages, where they can interact, we basically have a new twitter!</description>
+    </item>
+    
+    <item>
+      <title>Code Snippets #1: What the heck is hardhat&#39;s console.log?</title>
+      <link>/post/2023-03-24-hardhat-console-log/</link>
+      <pubDate>Fri, 24 Mar 2023 21:07:26 +0000</pubDate>
+      
+      <guid>/post/2023-03-24-hardhat-console-log/</guid>
+      <description>I was tasked to create ethereum smart contracts in my previous job.
+the library most recommended by other developers to create smart contracts was hardhat.
+to create and debug the smart contracts, I developed them using test-driven-development methods. The tests gave me a way to print out and inspect variables.
+just as I was done with the development I read somewhere that hardhat has a console.log() utility. You import it with import hardhat/console.</description>
+    </item>
+    
+    <item>
+      <title>My first year of being a professional programmer</title>
+      <link>/post/2023-02-11-reflections-one-year/</link>
+      <pubDate>Sat, 11 Feb 2023 21:30:26 +0000</pubDate>
+      
+      <guid>/post/2023-02-11-reflections-one-year/</guid>
+      <description>I met my goal. I posted a blog post on August 6, 2021 stating that I want to get a job before april 2022. During that time, I was creating projects for my resume. I was reading up on what people in the industry have to say about landing a job without a degree. The most common advice is to have projects that demonstrate my skills to potential employers.
+It was an effective advice.</description>
+    </item>
+    
+    <item>
+      <title>Code Snippets #0: Deploy when port exists using recursion</title>
+      <link>/post/2022-07-13-code-snippets-0/</link>
+      <pubDate>Wed, 13 Jul 2022 20:40:26 +0000</pubDate>
+      
+      <guid>/post/2022-07-13-code-snippets-0/</guid>
+      <description>I&amp;rsquo;m starting a new category of posts called &amp;ldquo;Code Snippets&amp;rdquo; where I share code I find interesting.
+In this first installment is a simple code snippet I originally wrote in Powershell to scan a local port continuously and do something when the port is found:
+function deploy(): if ( port_exists(port) ): do_something() else: deploy() deploy() Recursion has been a hard concept for me to put into practice and this served as a good introduction to it.</description>
+    </item>
+    
+    <item>
+      <title>Prevent pinky strain caused by typing all day</title>
+      <link>/post/2022-06-17-keyboard-layouts/</link>
+      <pubDate>Fri, 17 Jun 2022 00:14:54 +0000</pubDate>
+      
+      <guid>/post/2022-06-17-keyboard-layouts/</guid>
+      <description>Typing all day makes my pinky sore. This is how I got rid of it:
+Superuser.com: How do I hit the “Ctrl” key without straining my pinky?
+I press both ctrl keys with the edge of my palm. It&amp;rsquo;s perfect; I don&amp;rsquo;t have to stretch my pinkies, and my fingers don&amp;rsquo;t have to move away from where they&amp;rsquo;re supposed to be.
+Only downside is that this technique won&amp;rsquo;t work flat keyboards like the ones laptops have.</description>
+    </item>
+    
+    <item>
+      <title>Introducing Myself</title>
+      <link>/post/2021-08-06-introducing-myself/</link>
+      <pubDate>Fri, 06 Aug 2021 00:14:54 +0000</pubDate>
+      
+      <guid>/post/2021-08-06-introducing-myself/</guid>
+      <description>Hi. Starting today, I&amp;rsquo;ll start this blog as a personal log of everything that I want to say. I mainly plan to add my opinions on some topics that interest me (I&amp;rsquo;ll stay away from rants) and helpful things that I learn and encounter as I go.
+Since I am coming into the computer industry without formal education on the topic, this blog could also be helpful for me to getting a job as one of my projects that employers can refer to.</description>
+    </item>
+    
+  </channel>
+</rss>

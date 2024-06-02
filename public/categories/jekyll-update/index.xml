@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jekyll update on elpachongco&#39;s blog</title>
+    <link>/categories/jekyll-update/</link>
+    <description>Recent content in jekyll update on elpachongco&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Feb 2023 21:30:26 +0000</lastBuildDate><atom:link href="/categories/jekyll-update/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My first year of being a professional programmer</title>
+      <link>/post/2023-02-11-reflections-one-year/</link>
+      <pubDate>Sat, 11 Feb 2023 21:30:26 +0000</pubDate>
+      
+      <guid>/post/2023-02-11-reflections-one-year/</guid>
+      <description>I met my goal. I posted a blog post on August 6, 2021 stating that I want to get a job before april 2022. During that time, I was creating projects for my resume. I was reading up on what people in the industry have to say about landing a job without a degree. The most common advice is to have projects that demonstrate my skills to potential employers.
+It was an effective advice.</description>
+    </item>
+    
+  </channel>
+</rss>

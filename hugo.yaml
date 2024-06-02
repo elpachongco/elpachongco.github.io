@@ -1,0 +1,12 @@
+baseURL: ""
+disablePathToLower: true
+languageCode: en-us
+title: "elpachongco's blog"
+theme: "letter"
+params: 
+  gitUserName: "elpachongco"
+outputs:
+    home:
+      - "HTML"
+      - "RSS"
+      - "JSON"
