@@ -23,6 +23,8 @@ collections:
         # - { label: 'Featured Image', name: 'thumbnail', widget: 'image' }
         # - { label: 'Rating (scale of 1-5)', name: 'rating', widget: 'number' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Featured", name: "featured", widget: "boolean", default: false}
 
   - name: 'shorts' # Used in routes, e.g., /admin/collections/blog
     label: 'Shorts' # Used in the UI
@@ -35,5 +37,5 @@ collections:
         # - { label: 'Featured Image', name: 'thumbnail', widget: 'image' }
         # - { label: 'Rating (scale of 1-5)', name: 'rating', widget: 'number' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-
-
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Featured", name: "featured", widget: "boolean", default: false}
