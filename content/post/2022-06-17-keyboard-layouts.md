@@ -1,8 +1,10 @@
 ---
 categories: ergonomics
-date: "2022-06-17T00:14:54Z"
+date: 2022-06-17T00:14:54Z
 thumbnail: https://i.stack.imgur.com/m4Rja.jpg
 title: Prevent pinky strain caused by typing all day
+draft: false
+featured: true
 ---
 
 Typing all day makes my pinky sore. This is how I got rid of it:
