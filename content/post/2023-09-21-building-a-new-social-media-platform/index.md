@@ -4,7 +4,7 @@ title: Building a New Social Media Platform
 ---
 I recently created a [/shorts/ page in my blog](https://elpachongco.github.io/shorts/). This page is intended for shorter content. It's a place I can use to share memes, tips, and small stories.
 
-![](/img/uploads/elpachongco-shorts.png)
+![](img/elpachongco-shorts.png)
 
 > My blog's shorts page.
 
@@ -30,7 +30,7 @@ At first I was conflicted whether to require accounts for feed submissions.  But
 
 The code was very unorganized but it helped me determine the requirements.
 
-![](/img/uploads/bhread-initial-version.png)
+![](img/bhread-initial-version.png)
 
 > The initial bhread design. Thanks to water.css and material icons for its looks.
 
@@ -42,7 +42,7 @@ I tried a few designs. At first, I designed with CSS but I got tired easily and 
 
 I used figma to design some components and the experience is really good. I used to do these things in Illustrator and I'm glad I tried out figma.
 
-![](/img/uploads/bhread-design-figma.png)
+![](img/bhread-design-figma.png)
 
 > Bhread's prototype components. These are the basis for the current website's designs. I abandoned some of the ideas here as they're too distracting and it consumed a lot of space in the user's screen.
 
@@ -66,18 +66,18 @@ Initially, I planned on open sourcing it after a year of development. I didn't w
 
 One concern about open sourcing the project is monetization. I was scared that I might not be able to monetize it if I open source it. Sustainability is a big part of a project. I sure as hell won't be putting ads on it. It runs on a $6 machine, I can afford that. So that's not a problem right now.
 
-![](/img/uploads/bhread-to-hn.png)
+![](img/bhread-to-hn.png)
 
 > Me doing a shameless plug on HN. It's a post about webrings. I couldn't resist.
 
 That's it for now, this is what the website looks like right now (Sept 21, 2023):
 
-![](/img/uploads/bhread-screenshot-09-21-2023.png)
+![](img/bhread-screenshot-09-21-2023.png)
 It's getting pretty close :D
 
 Bonus:
 
-![](/img/uploads/bhread-styles-injected-fail.png)
+![](img/bhread-styles-injected-fail.png)
 
 > I forgot to sanitize the verification post. The wordpress theme of the post infected the whole site. Makes me think about the design of my code.
 

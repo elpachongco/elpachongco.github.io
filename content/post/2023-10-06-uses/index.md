@@ -164,7 +164,7 @@ my project [Bhread.com](https://bhread.com).
 
 I work on the dining table. Here's my setup: 
 
-![Home setup](/img/uploads/setup.jpg)
+![Home setup](img/setup.jpg)
 
 I put the laptop on top of the box so I can work standing up from time to time.
 

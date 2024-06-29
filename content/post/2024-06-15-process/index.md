@@ -11,7 +11,7 @@ In this job, I noticed myself making a lot of small mistakes repeatedly: Forgett
 
 A kind coworker, understandably, probably got tired of me making these small mistakes and offered help. We did a one-on-one chat, and he asked some questions. It basically felt like being debugged.
 
-![stick figure man standing beside human lying in the bed with a 'bug' coming out.](/img/uploads/human-debugging-human.jpg "Human debugging human")
+![stick figure man standing beside human lying in the bed with a 'bug' coming out.](img/human-debugging-human.jpg "Human debugging human")
 
 The most important part of our conversation was when he asked me to outline what I do when I work, from start to finish. So I thought it through, outlined my rough steps when working, and came up with the steps on the fly by thinking of what I always do.
 
