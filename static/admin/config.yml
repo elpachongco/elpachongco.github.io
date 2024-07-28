@@ -1,6 +1,8 @@
+local_backend: true
 backend:
-  name: 'github'
+  # name: 'github'
   # name: 'test-repo'
+  name: 'git-gateway'
   repo: 'elpachongco/elpachongco.github.io'
   branch: 'master'
 #     # api_root: 'https://api.github.com'
