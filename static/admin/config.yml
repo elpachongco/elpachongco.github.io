@@ -1,4 +1,5 @@
-local_backend: true
+local_backend:
+  url: http://localhost:8081/api/v1
 backend:
   # name: 'github'
   # name: 'test-repo'
@@ -20,7 +21,7 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: '{{year}}-{{month}}-{{day}}-{{filename}}' # Filename template, e.g., YYYY-MM-DD-title.md
     path: '{{slug}}/index'
-    media_folder: ''
+    media_folder: 'img'
     public_folder: ''
     fields: # The fields for each document, usually in front matter
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
@@ -36,7 +37,10 @@ collections:
     label: 'Shorts' # Used in the UI
     folder: 'content/shorts' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: '{{year}}-{{month}}-{{day}}-{{filename}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    path: '{{slug}}/index'
+    media_folder: 'img'
+    public_folder: ''
     fields: # The fields for each document, usually in front matter
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DDTHH:mm:ss.SSSZ'}
