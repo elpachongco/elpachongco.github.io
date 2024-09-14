@@ -2,7 +2,7 @@
 layout: post
 title: Tracking my expenses using CSV
 date: 2024-09-14T22:02:00.000+08:00
-draft: true
+draft: false
 featured: false
 ---
 I woke up one day and realized that I need to be more responsible financially. I wanted to start by tracking my expenses. 
