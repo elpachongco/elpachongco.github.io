@@ -56,8 +56,8 @@ The repo: [github.com/elpachongco/expenses-cli](https://github.com/elpachongco/e
 
 [](https://github.com/elpachongco/expenses-cli)Screenshots (Sept 15, 2024):
 
-![Desktop screenshot of the dashboard](expenses-cli-desktop.png)
+![Desktop screenshot of the dashboard](img/expenses-cli-desktop.png)
 
 [](https://github.com/elpachongco/expenses-cli)
 
-![Mobile screenshot of the dashboard](expenses-cli-mobile.png)
+![Mobile screenshot of the dashboard](img/expenses-cli-mobile.png)
