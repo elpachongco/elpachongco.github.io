@@ -33,7 +33,7 @@ DATE, ITEM, QUANTITY, PRICE, TOTAL, CATEGORY
 
 If `DATE` is empty in a row, the date of the previous row will be used. This makes it easier to add rows when I'm outside.
 
-## A simple, no build dashboard using Vue and PicoCSS 
+## A simple, no build dashboard using Vue and PicoCSS
 
 After a month of doing this, I realized I need a tool to analyze my expenses. I started with a command line Python script
 but I later realized a webpage would allow me to analyze my expenses on any device.
@@ -42,7 +42,7 @@ but I later realized a webpage would allow me to analyze my expenses on any devi
 
 I've been using Vue with the options API at work. I think it's really good and I wanted to explore it a more. What's nice about it is the way logic is organized with options API. The complexity of the UI is more manageable this way. And that's without a build step needed.
 
-### PicoCSS 
+### PicoCSS
 
 I've been using [water.css](https://watercss.kognise.dev/) for my small projects but after hearing too many people talk about PicoCSS, I wanted to try it.
 
@@ -53,3 +53,11 @@ I'm curious if I'll still be using it months or years from now, but so far, I've
 The dashboard is available here: [earlps.net/expenses-cli](https://earlps.net/expenses-cli/)
 
 The repo: [github.com/elpachongco/expenses-cli](https://github.com/elpachongco/expenses-cli)
+
+[](https://github.com/elpachongco/expenses-cli)Screenshots (Sept 15, 2024):
+
+![Desktop screenshot of the dashboard](expenses-cli-desktop.png)
+
+[](https://github.com/elpachongco/expenses-cli)
+
+![Mobile screenshot of the dashboard](expenses-cli-mobile.png)
