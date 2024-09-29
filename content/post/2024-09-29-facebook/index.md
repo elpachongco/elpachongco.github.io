@@ -2,7 +2,7 @@
 layout: post
 title: "The Philippines can't survive without Facebook "
 date: 2024-09-29T20:35:00.000+08:00
-draft: true
+draft: false
 featured: false
 ---
 Note: this is an unorganized, low-effort rant of how I feel about Facebook and how the Philippines' depends too much on it.
