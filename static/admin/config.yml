@@ -1,11 +1,11 @@
 # local_backend:
 #   url: http://localhost:8081/api/v1
 backend:
-  # name: 'github'
+  name: 'github'
   # name: 'test-repo'
-  name: 'git-gateway'
-  # repo: 'elpachongco/elpachongco.github.io'
-  # branch: 'master'
+  # name: 'git-gateway'
+  repo: 'elpachongco/elpachongco.github.io'
+  branch: 'master'
 #     # api_root: 'https://api.github.com'
 #     # site_domain: 'elpachongco.github.io'
 #     # base_url: 'https://api.netlify.com'
