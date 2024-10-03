@@ -1,6 +1,8 @@
 ---
-date: "2023-11-12T16:34:54Z"
 title: Blog redesign checklist
+date: 2023-11-12T16:34:54Z
+draft: false
+featured: false
 ---
 I recently posted this: [New plans for the blog](https://elpachongco.github.io/shorts/2023-11-12-new-plans-for-the-blog.htm)
 
@@ -22,6 +24,10 @@ In this article, I'll list the things that I want my blog to have.
 - [ ] Code snippets must have a built-in header for filename.
 - [ ]  Static site search (like papermod)
 - [ ] Captions for each image
+- [ ] Post thumbnails
+  - [ ] Get a post's first image file and use as thumbnail
+  - [ ] If not present, use a default thumbnail
+  - [ ] Allow setting custom thumbnail in frontmatter/settings
 
 ## Optional
 
