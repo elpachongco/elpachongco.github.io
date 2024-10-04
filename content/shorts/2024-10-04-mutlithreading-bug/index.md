@@ -1,7 +1,7 @@
 ---
 title: mutlithreading bug
 date: 2024-10-04T10:00:00.000+08:00
-draft: true
+draft: false
 featured: false
 ---
 
