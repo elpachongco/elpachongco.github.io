@@ -15,9 +15,9 @@ In the Philippines, updates for most cities will come from the city's own "Publi
 
 Facebook is not a news platform but because it tends to be the fastest way to see updates, it kind of feels like one. Sometimes it is the only way to know about local information. Unless an incident near you is reported by big organizations, it will probably only be on Facebook.
 
-The problem is, Facebook has to filter all this information and put it behind an algorithm that is basically a black box.
+The problem is, Facebook has to filter all this information and put it behind an algorithm that is a black box.
 
-One cannot be certain that Facebook will prioritize showing a crucial weather update rather than a really funny meme, a shocking revelation about a celebrity, or a new product. We all know which ones get the most reactions.
+One cannot be certain that Facebook will prioritize showing a crucial weather update rather than a really funny meme, a shocking revelation about a celebrity, or a new product. It probably depends on which ones get the most reactions.
 
 For example, sometimes I feel like people don't realize how dangerous an upcoming typhoon is because Facebook doesn't seem to amplify this sentiment enough. If only it knew how to emphasize how dangerous the typhoon could be, more people can be prepared. But instead, you see one post about an upcoming typhoon, scroll past it, see a new meme/product/scandal, and you forget about it.
 
@@ -27,10 +27,28 @@ Everyone uses Facebook Messenger to communicate in the Philippines. Unsurprising
 
 Facebook Messenger is also used as a workplace messaging application. I know some who work on enterprises owned by Filipinos and they mostly communicate using Messenger.
 
-## It is literally FREE to use Facebook in the Philippines
+## Cost
 
-Since my high school days, mobile carriers have enabled access to Facebook and its services for free. It allowed us to view a simplified version of our Facebook news feeds and send messages for free. Literally no payment required. The only limitation was that you will not be able to see images. This strategy worked really well, as evidenced by how much we currently depend on this private service that is Facebook.
+It is literally FREE to use Facebook in the Philippines.
+
+Since 2010, mobile carriers have enabled access to Facebook and its services for free. It allowed us to view a [simplified version of our Facebook news feeds](https://en.wikipedia.org/wiki/Facebook_Zero) and send messages for free. No payment or data plan required. The only limitation is that you will not be able to see images. This strategy worked really well, as evidenced by how much we currently depend on this private service that is Facebook.
+
+At the time it was really difficult to switch to other platforms because they require mobile data and data plans are expensive. Meanwhile, Facebook is free.
 
 It feels like the presence of Facebook denied Filipinos of hand-crafted websites. 
 
-I truly hope that by writing this, more people talk about this issue. I really want to encourage the government to start its own website for centralized information distribution. Filipinos deserve better.
+I truly hope that by writing this, more people talk about this issue. I really encourage the government to start its own website for centralized information distribution.
+
+## How to help
+
+### If you're a programmer
+
+- If you're looking to make web projects for your portfolio, try looking for non-profit organizations in your community and ask them if they want a website and collaborate with them. Deploy it for free on Github pages.
+- Ask friends and family who have businesses, if they want a website  
+
+### If you're a business owner
+
+- You can make your own website using Wordpress for free.
+- If possible, hire a student or a newly-grad to create a simple website.
+
+Update (Oct 22, 2024): I have created a website for scraping FB pages of local news: [Scraping Facebook to scratch an itch](https://earlps.net/post/2024-10-21-scraping-facebook-to-scratch-an-itch/).
