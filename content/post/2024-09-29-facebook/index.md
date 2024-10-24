@@ -43,12 +43,16 @@ I truly hope that by writing this, more people talk about this issue. I really e
 
 ### If you're a programmer
 
-- If you're looking to make web projects for your portfolio, try looking for non-profit organizations in your community and ask them if they want a website and collaborate with them. Deploy it for free on Github pages.
-- Ask friends and family who have businesses, if they want a website  
+* If you're looking to make web projects for your portfolio, try looking for non-profit organizations in your community and ask them if they want a website and collaborate with them. Deploy it for free on Github pages.
+* Ask friends and family who have businesses, if they want a website  
 
 ### If you're a business owner
 
-- You can make your own website using Wordpress for free.
-- If possible, hire a student or a newly-grad to create a simple website.
+* You can make your own website using Wordpress for free.
+* If possible, hire an IT or CS student or a newly-grad to create a simple website.
 
 Update (Oct 22, 2024): I have created a website for scraping FB pages of local news: [Scraping Facebook to scratch an itch](https://earlps.net/post/2024-10-21-scraping-facebook-to-scratch-an-itch/).
+
+Update (Oct 24, 2024):
+
+![](img/fb-amnesty-intl.png)
