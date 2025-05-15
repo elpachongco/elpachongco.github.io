@@ -9,6 +9,8 @@ __this is a draft. thoughts are not final.__
 
 The only thing separating you from the pain of JS and the joy of HTML is the way you design web applications.
 
+Web developers dream of native app like behavior for their websites by designing  SPAs that mimic native apps. But the reality is, web has a different architecture and it should have its own design. In fact, it already has. It's forms. Everything should be a form.
+
 HTML is very easy to work with. Anecdotally, I use Django to create web applications. With it, one only has to create a route, create data models, create logic, create templates and the web app is finished. UI may be boring, but it is finished. Boring is good anyway.
 
 Developers don't seem to realize how perfect this workflow is. In pursuit of a flashy UI and the fear of not having enough control, they resort to ignoring most of the conveniences given by the framework to roll custom validation, fetching, error handling and so much more.
@@ -39,3 +41,5 @@ More importantly, the amount of work to do it is not sustainable for a single-pe
 Doing it in plain HTML does not need that amount of effort because it utilizes code that have already been written by others and behavior that come with the browser.
 
 I'm not saying everyone should use this model but try it and you'll realize just how much time you're wasting.
+
+I have recently tried to contact a repair shop and one of the ways to do it was through their FB messenger chat bots. I didn't expect a good UX but it was straightforward and did what I needed it to do.
